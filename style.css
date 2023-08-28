@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.badie{
+    background-color: #080808;
+    color: #fff;
+    width: 100%;
+    background-image: url(img/portfolio\ 4.jpg);
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+.container{
+    padding: 10px 10px;
+}
+
+.logo{
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+    margin-left: 200px;
+    text-decoration: none;
+
+}
+
+li{
+    text-decoration: none;
+    justify-items: center;
+    margin-left: 40px;
+    list-style-type: none;
+
+}
+
+a{
+    color: white;
+}
+
+
+
+a:hover{
+    color: blue;
+}
+
+.btn{
+    margin-left: 20px;
+    align-items: safe;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    color: blue;
+    border: 0;
+    border-radius: 7px;
+}
+
+.btn:hover{
+    margin-left: 20px;
+    align-items: safe;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+color: black;
+font-size: x-large;
+font-weight: bolder;
+}
+
+p{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+footer{
+    background-color:black ;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    height: 50px;
+}
